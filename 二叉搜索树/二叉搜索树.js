@@ -242,6 +242,7 @@ let resStr = "";
 const res = function (nodeKey) {
   resStr += nodeKey + " ";
 };
+
 // bst.preOrderTraversal(res) //先序
 
 console.log(bst.remove(11));
